@@ -1,0 +1,33 @@
+aside{
+    width: 50%;
+    opacity: .8;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: $aside;
+    border-radius: 50px;
+    
+    .titulo_aside{
+        width: 100%;
+        font-size: 3rem;
+        text-align: center;
+        padding: 1rem;
+    }
+    .adicional{
+        margin: 20px;
+        font-size: 1.1rem;
+        line-height: 1.8rem;
+    }
+    img{
+        width: 33%;
+    }
+    .adicional2{
+        display: flex;
+        width: 30%;
+        justify-content: center;
+        align-items: center;
+        margin: 0 auto;
+    }
+}

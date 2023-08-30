@@ -1,0 +1,55 @@
+main{
+    h1{
+        padding: 20px;
+    }
+    .contenedor{
+        width: 100%;
+        max-width: 1200px;
+        margin: auto;
+        padding: 60px 0;
+    
+        display: flex;
+    }
+    
+    .contenedor-cards{
+        width: 100%;
+    display: flex;
+    gap: 150px;
+    margin: 0 auto;
+    }
+    .loginformulario{
+        margin: auto;
+        width: 50%;
+        padding-bottom: 100px;
+        padding-top: 100px;
+    }
+    .contenedor4{
+        max-width: 1200px;
+        margin: auto;
+        padding: 10px;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        justify-content: center;
+        align-content: center;
+    }
+    .contenedor-cards4{
+        margin: auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 160px;
+        justify-content: center;
+        align-content: center;
+    }
+    .card{
+        width: 16%;
+    }
+    .contenedor5{
+        max-width: 1200px;
+        margin: auto;
+        padding: 10px;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        justify-content: center;
+        align-content: center;
+    }
+}
