@@ -43,6 +43,9 @@ main{
     .card{
         width: 16%;
     }
+    .card:hover{
+        transform: scale(1.1,1.1);
+    }
     .contenedor5{
         max-width: 1200px;
         margin: auto;

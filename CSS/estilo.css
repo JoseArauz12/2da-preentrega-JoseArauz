@@ -55,6 +55,9 @@ main .contenedor-cards4 {
 main .card {
   width: 16%; }
 
+main .card:hover {
+  transform: scale(1.1, 1.1); }
+
 main .contenedor5 {
   max-width: 1200px;
   margin: auto;
